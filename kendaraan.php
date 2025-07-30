@@ -14,9 +14,9 @@ class Motor {
 
     public function gettransmisi() {
         $T = strtolower($this->Transmisi);
-        if ($T == "MA" || $T == "Manual") {
+        if ($T == "ma" || $T == "manual") {
             return "Manual";
-        } elseif ($T == "MT" || $T == "Matic") {
+        } elseif ($T == "mt" || $T == "matic") {
             return "Matic";
         } else {
             return "Bukan Motor";
